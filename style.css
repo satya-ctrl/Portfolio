@@ -1,0 +1,157 @@
+/* Dark Mode with Modern Look */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+/* Header Styling */
+header {
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4db5ff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4db5ff;
+}
+
+/* Social Icons */
+.social-icons a {
+    margin-left: 10px;
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #4db5ff;
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background-color: #1a1a1a;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    gap: 2rem;
+}
+
+.hero-left {
+    max-width: 50%;
+}
+
+.hero-left h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-left .highlight {
+    color: #4db5ff;
+}
+
+.hero-right img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+/* Project Cards */
+#github-repos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.repo-card {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.repo-card:hover {
+    transform: translateY(-5px);
+}
+
+/* LeetCode Stats */
+#leetcode-stats {
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, textarea {
+    padding: 0.8rem;
+    border: 1px solid #4db5ff;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: #f5f5f5;
+}
+
+button {
+    padding: 0.8rem;
+    background-color: #4db5ff;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #3ba9ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1f1f1f;
+}
